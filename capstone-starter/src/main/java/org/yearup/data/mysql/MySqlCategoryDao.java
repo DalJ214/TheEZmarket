@@ -39,9 +39,16 @@ public class MySqlCategoryDao extends MySqlDaoBase implements CategoryDao
     }
 
     @Override
-    public void update(int categoryId, Category category)
+    public Category insert(Category category) {
+        return null;
+    }
+
+    @Override
+    public boolean update(int categoryId, Category category)
     {
         // update category
+
+        return false;
     }
 
     @Override
