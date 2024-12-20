@@ -3,6 +3,8 @@ package org.yearup.configuration;
 import org.apache.ibatis.jdbc.ScriptRunner;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
@@ -50,7 +52,7 @@ public class TestDatabaseConfig
             statement.execute("DROP DATABASE IF EXISTS " + testDb + ";");
             statement.execute("CREATE DATABASE " + testDb + ";");
         }
-        catch (SQLException ignored) {}
+        catch (SQLException ignored){}
     }
 
     @PreDestroy

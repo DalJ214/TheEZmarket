@@ -1,6 +1,6 @@
-package org.yearup.service;
+/*package org.yearup.service;
 
-import org.springframework.*;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.yearup.*;
@@ -28,4 +28,4 @@ public class CategoryService {
         return categoryDao.getAllCategories();
         }
 }
-
+*/

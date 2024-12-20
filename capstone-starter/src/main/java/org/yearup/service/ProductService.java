@@ -1,4 +1,4 @@
-package org.yearup.service;
+/*package org.yearup.service;
 
 
 import org.springframework.stereotype.Service;
@@ -12,4 +12,4 @@ public class ProductService {
     public List<Product> getProductsByCategoryId(int categoryId){
         return new ArrayList<>();
     }
-}
+}*/
